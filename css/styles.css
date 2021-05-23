@@ -348,8 +348,10 @@ body {
   background-color: var(--background-hero-footer);
 }
 .footer-container {
+  display: flex;
+}
+.footer-address-container {
   padding-bottom: 60px;
-  padding-left: 60px;
   margin-right: 70px;
 }
 .footer-logo {
