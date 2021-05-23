@@ -355,7 +355,6 @@ body {
   margin-right: 70px;
 }
 .footer-logo {
-  display: flex;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -376,7 +375,6 @@ body {
   color: var(--footer-mail-phone);
 }
 .footer-social {
-  display: block;
   padding-top: 72px;
   padding-bottom: 100px;
 }
@@ -416,7 +414,7 @@ body {
 }
 .footeer-social-list-link:hover .footeer-social-list-icon,
 .footeer-social-list-link:focus .footeer-social-list-icon {
-  fill: #ffffff;
+  fill: var(--title-text-color-footer);
 }
 /*==================================Конец "нижний колонтитул"=======================*/
 
