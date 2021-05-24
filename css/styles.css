@@ -381,7 +381,7 @@ body {
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-it {
+.address-item {
   font-size: normal;
 }
 
