@@ -379,9 +379,6 @@ body {
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-item {
-  font-style: normal;
-}
 .footer-address,
 .footer-logo {
   color: var(--title-text-color-footer);
