@@ -103,8 +103,6 @@ body {
   letter-spacing: 0.02em;
 }
 .contact-mail-phone {
-  display: flex;
-  align-items: center;
   margin-right: 50px;
 }
 .contact-phone {
@@ -382,7 +380,7 @@ body {
   margin-bottom: 9px;
 }
 .address-item {
-  font-size: normal;
+  font-style: normal;
 }
 .footer-address,
 .footer-logo {
