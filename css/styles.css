@@ -119,11 +119,7 @@ body {
 .logo-accent {
   color: var(--accent-color);
 }
-.mail-list-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-.phone-list-icon {
+.mailphone-list-icon {
   fill: currentColor;
   margin-right: 10px;
 }
