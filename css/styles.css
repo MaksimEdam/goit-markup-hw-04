@@ -380,8 +380,11 @@ body {
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
+}
+.address-it {
   font-size: normal;
 }
+
 .footer-address,
 .footer-logo {
   color: var(--title-text-color-footer);
