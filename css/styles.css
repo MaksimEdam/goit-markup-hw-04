@@ -103,7 +103,13 @@ body {
   letter-spacing: 0.02em;
 }
 .contact-mail-phone {
+  display: flex;
+  align-items: center;
   margin-right: 50px;
+}
+.contact-phone {
+  display: flex;
+  align-items: center;
 }
 .nav .menu-link:hover,
 .nav .menu-link:focus,
@@ -116,22 +122,12 @@ body {
   color: var(--accent-color);
 }
 .mail-list-icon {
-  width: 16px;
-  height: 12px;
-  fill: #afb1b8;
+  fill: currentColor;
   margin-right: 10px;
 }
 .phone-list-icon {
-  width: 10px;
-  height: 16px;
-  fill: #afb1b8;
+  fill: currentColor;
   margin-right: 10px;
-}
-.mail-list-icon:hover {
-  fill: var(--accent-color);
-}
-.phone-list-icon:hover {
-  fill: var(--accent-color);
 }
 .contact .contact-mail,
 .contact .contact-phone {
